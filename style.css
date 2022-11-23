@@ -1,0 +1,36 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#canvas {
+    height: 100vh;
+    width: 100vw;
+}
+
+img {
+    height: 100vh;
+    width: 100vw;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#info h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#info h3 {
+    font-size: 1.5rem;
+}
